@@ -2,8 +2,6 @@
 
 import os
 
-
-
 for i in range(100):
 	dirName =str(i)
 	try:
