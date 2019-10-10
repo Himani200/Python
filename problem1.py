@@ -5,7 +5,11 @@
 name = input("Enter your name:")
 age = input("Enter your age:")
 Age = int(age)
-year = str(2019 + (95 - Age))
-print(name + " you will turn 95 years old in " + year)
+if Age>95:
+  year=str(2019-(Age-95))
+  print(name+"You have turned 95 in" +year)
+else:
+  year = str(2019 + (95 - Age))
+  print(name + " you will turn 95 years old in " + year)
 
 
